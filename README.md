@@ -2,6 +2,7 @@
 
 [Repo](https://github.com/Mohammadnim123/odometer)
 [PR1](https://github.com/Mohammadnim123/odometer/pull/1)
+[PR2](https://github.com/Mohammadnim123/odometer/pull/2)
 
 **Overview**
 
