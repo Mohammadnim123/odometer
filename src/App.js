@@ -54,7 +54,7 @@ class Odometer  extends React.Component{
 function Header(props){
   return(
   <header className='header'>
-  <h1>Welcome In {props.appName}</h1>
+  <h1>Welcome In {props.text}</h1>
   </header>
   );
 }
@@ -64,7 +64,7 @@ function Header(props){
 function Footer(props){
 return(
   <footer className='footer'>
-    <p>All rights are saved for {props.name} </p>
+    <p>All rights are saved for {props.trademark} </p>
   </footer>
 )
 
@@ -76,9 +76,9 @@ return(
 function App() {
   return (
     <div className="App">
-      <Header appName='Odometer App' />
+      <Header text='Odometer App' />
       <Odometer  />
-      <Footer name = 'Mohammad Nimrawi' />
+      <Footer trademark = 'Mohammad Nimrawi' />
       
 
     </div>
